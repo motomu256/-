@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>My site</title>
+    <link rel="stylesheet" href="aaa.css">
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="./app.js"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+  <div class="tabbox">
+   <div id="header">
+   <div class="navigation">
+    <h2 href="#header">紹介と自分の趣味ほめぱげ</h2>
+       <nav>
+       <ul>
+        　<li><a href="#tab1" class="tab1"onclick="changeTab('#tab1'); return false;">本体</a></li>
+        　<li><a href="https://www.apple.com/jp/">Apple</a></li>
+        　<li><a href="https://www.google.co.jp/">Google</a></li>
+        　<li><a href="https://ja-jp.facebook.com">Facebook</a></li>
+          <li><a href="#tab2" class="tab2"onclick="changeTab('#tab2'); return false;">げーむ</a></li>
+    　　</ul>
+    </nav>
+    </div>
+  </div>
+  <!--1100以下で表示するもの。-->
+     <div class="tabbox">
+   <div id="newmenu">
+   <div class="navigation2">
+    <h2 href="#header">紹介と自分の趣味ほめぱげ</h2>
+       <nav>
+      <ul>
+        <li><a href="#tab1" class="tab1"onclick="changeTab('#tab1'); return false;">本体  </a></li>
+        <li><a href="https://ja-jp.facebook.com">FB </a></li>
+        <li><a href="#tab2" class="tab2"onclick="changeTab('#tab2'); return false;">げーむ</a></li>
+      </ul>
+    </nav>
+    </div>
+  </div>
+</div>
+<div id="tab1" class="tab">
+    <div class="main-visual" ><img src="hero2.jpg" no-repeat></div>
+    <div id="img-slide">
+  <img src="images/34clear.png" id="img1" />
+  <img src="images/sisaku.png" id="img2" />
+  <img src="images/back02.jpg" id="img3" />
+  <img src="images/suzuya.png" id="img4" />
+  
+    </div>
+
+  <div id="intro">
+    <h1>It's not 自己紹介 but 自己紹介</h1>
+    <ul>
+      <h3>
+        名前はひみつだーーー
+        まあそれでって話
+      </h3>
+      <h3>
+        えーとなんだろう
+      </h3>
+      <h3>
+        ゲーマーです    
+      </h3>
+      <h3>
+        気づいた。これ自己紹介じゃないわ
+      </h3>
+
+      </ul>
+    </div>
+
+  
+    <p class="useful">便利ツール</p>   
+    <nav id="tools">
+    <!-- 天気予報 -->
+   <a　id="tennki" style="text-align:center;font-size:12px;width:130px"><IFRAME 
+    src="http://srain.tenki-yoho.com/p2.php?3&14305454678456&" 
+    width=128 height=240 scrolling=NO frameborder=0 marginwidth=0 marginheight=0 
+    style='border: 1px solid #333333'></IFRAME>-</a>
+   
+ <!--google news -->  
+     <iframe frameborder="0" marginwidth="0" marginheight="0" 
+   width="300" height="250"
+    src="http://www.google.com/uds/modules/elements/newsshow/iframe.html?format=300x250&element=true">
+    </iframe>
+    </nav>
+  </div>
+  <div id="tab2" class="tab">
+    <div id="gamesideall">
+   <div id="game1">
+       <img src="images/kankore.png" alt="" width="260">
+       <h3>艦これ</h3>
+       <p>早く来い来い天津風</p>
+   </div>
+    <div id="game2">
+        <img src="images/minecraft.png" alt="" width="280">
+        <h3>マイクラ</h3>
+        <p >動画見るのたのしいですよね</p>
+        </div>  
+    <div id="game3">
+        <img src="images/pad.jpg" alt="" width="280">
+        <h3>パズドラ</h3>
+        <p>sasukeのパズル力が落ちている</p>
+    </div> 
+</div>
+</body>
+</html>
